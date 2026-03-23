@@ -1,146 +1,137 @@
-# All in Abyss: Judge the Fake — PT-BR Translation Patch
+# All in Abyss Judge the Fake — Tradução Português Brasil (PT-BR)
 
-**Complete Brazilian Portuguese fan translation — 9,999 strings translated.**
+**Tradução completa pro Português Brasileiro — 9.999 strings traduzidas.**
 
-Made for fun by [Awesome Fox Music](https://steamcommunity.com/id/awesomefox/).
+Feito por diversão por [Awesome Fox Music](https://steamcommunity.com/id/awesomefox/).
 
-> **Note to the developer:** This is a non-commercial fan translation project. No game code, assets, sprites, music, or executables are included — only modified text bundles. The game must be purchased on Steam to use this patch. I made this purely because I wanted to play the game in my native language. Thank you for making such an amazing game!
-
----
-
-## About
-
-Full fan translation of **[All in Abyss: Judge the Fake](https://store.steampowered.com/app/2731550/All_in_Abyss_Judge_the_Fake/)** into Brazilian Portuguese (PT-BR).
-
-I made this translation just for fun — I love this game and wanted to play it in my language. It's a fan project, no profit involved.
-
-- Faithful to the original tone — no censorship, no filters
-- Each character's personality preserved
-- All chapters, battles, menus, items and cutscenes translated
-
-> **Heads up:** This translation may still have errors and could use some review. If you find something off, open an issue or send a PR and I'll fix it!
+> **For the developer:** This is a non-commercial fan translation. No game code, sprites, music or executables are included — only modified text files. The game must be purchased on Steam to use this patch. I just wanted to play your amazing game in my language. Thank you for creating it!
 
 ---
 
-## What's translated
+## Sobre
 
-| Content | Strings | Status |
-|---------|---------|--------|
-| Menus, UI & System | 663 | ✅ |
-| Items & Descriptions | 642 | ✅ |
-| Character Names | 99 | ✅ |
-| Battle Text | 258 | ✅ |
-| Enemy Dialogue | 194 | ✅ |
-| Location Names | 44 | ✅ |
+Tradução completa de **[All in Abyss: Judge the Fake](https://store.steampowered.com/app/2731550/All_in_Abyss_Judge_the_Fake/)** pro Português Brasileiro.
+
+Fiz essa tradução por diversão — amo esse jogo e queria jogar na minha língua. Projeto de fã, sem lucro envolvido.
+
+- Fiel ao tom original — sem censura, sem filtro
+- Personalidade de cada personagem preservada
+- Todos os capítulos, batalhas, menus, itens e cutscenes traduzidos
+
+> **Aviso:** A tradução pode ter erros e precisa de revisão. Achou algo estranho? Abre uma issue ou manda um PR que eu corrijo!
+
+---
+
+## O que foi traduzido
+
+| Conteúdo | Strings | Status |
+|----------|---------|--------|
+| Menus, UI e Sistema | 663 | ✅ |
+| Itens e Descrições | 642 | ✅ |
+| Nomes de Personagens | 99 | ✅ |
+| Textos de Batalha | 258 | ✅ |
+| Falas de Inimigos | 194 | ✅ |
+| Nomes de Locais | 44 | ✅ |
 | Staff Roll | 168 | ✅ |
-| **Story Dialogue (Ch. 1-5)** | **7,849** | ✅ |
+| **Diálogos (Capítulos 1-5)** | **7.849** | ✅ |
 | Templates | 5 | ✅ |
-| **Total** | **9,922** | ✅ |
+| **Total** | **9.922** | ✅ |
 
-### Chapters
+### Capítulos
 
-| # | Arc | Status |
-|---|-----|--------|
-| 1 | Ulu — The Witch of Sweets | ✅ |
-| 2 | Yuragi — The Witch of Quietus | ✅ |
-| 3 | Lancille — The Labor Camp | ✅ |
-| 4 | Yukimiya — The WCW Group | ✅ |
-| 5 | Abyss — The Final Confrontation | ✅ |
+| # | Arco | Status |
+|---|------|--------|
+| 1 | Ulu — A Bruxa dos Doces | ✅ |
+| 2 | Yuragi — A Bruxa do Quietus | ✅ |
+| 3 | Lancille — O Campo de Trabalho | ✅ |
+| 4 | Yukimiya — O Grupo WCW | ✅ |
+| 5 | Abyss — O Confronto Final | ✅ |
 
 ---
 
-## Installation
+## Instalação
 
-### Requirements
-- **[All in Abyss: Judge the Fake](https://store.steampowered.com/app/2731550/All_in_Abyss_Judge_the_Fake/)** purchased on Steam
+### Requisitos
+- **[All in Abyss: Judge the Fake](https://store.steampowered.com/app/2731550/All_in_Abyss_Judge_the_Fake/)** comprado na Steam
 
-### Easy way (Recommended)
+### Jeito fácil (Recomendado)
 
-1. Download this repo (Code → Download ZIP) and extract it
-2. Run **`install.bat`**
-3. Open the game **through Steam**
-4. Select **English** in the language menu
-5. Done — everything shows up in PT-BR!
+1. Baixa o repositório (Code → Download ZIP) e extrai
+2. Roda o **`install.bat`**
+3. Abre o jogo **pela Steam**
+4. Seleciona **English** no menu de idioma
+5. Pronto — tudo em PT-BR!
 
-> The installer auto-detects the game folder, backs up the originals, and copies the translated files.
+> O instalador detecta a pasta do jogo sozinho, faz backup dos originais e copia os arquivos traduzidos.
 
-### Manual installation
+### Jeito manual
 
-If the installer can't find your game, copy the files manually:
+Se o instalador não achar teu jogo, copia na mão:
 
-1. Copy the 2 `.bundle` files from `bundles/` to:
+1. Copia os 2 bundles de `bundles/` pra:
    ```
    [Steam]\steamapps\common\All in Abyss\All in Abyss_Data\StreamingAssets\aa\StandaloneWindows64\
    ```
 
-2. Copy `bundles/catalog.bundle` to:
+2. Copia `bundles/catalog.bundle` pra:
    ```
    [Steam]\steamapps\common\All in Abyss\All in Abyss_Data\StreamingAssets\aa\
    ```
 
-3. Open the game through Steam and select **English**
+3. Abre o jogo pela Steam e seleciona **English**
 
-### Uninstall
+### Desinstalar
 
-- Run **`uninstall.bat`**, or
-- On Steam: right-click the game → Properties → Installed Files → **Verify integrity of game files**
-
----
-
-## How it works
-
-The translation replaces the English text slot in the game's text assets. That's why you select "English" in the language menu to see PT-BR.
-
-- Audio stays in Japanese (same as original)
-- No game files are removed — only text files are replaced
-- If the game gets an update, you may need to reapply the patch
-
-> **Tip:** Disable auto-updates on Steam to prevent your files from being overwritten.
+- Roda o **`uninstall.bat`**, ou
+- No Steam: botão direito no jogo → Propriedades → Arquivos Instalados → **Verificar integridade dos arquivos**
 
 ---
 
-## Files
+## Como funciona
+
+A tradução substitui o slot de inglês nos assets de texto do jogo. Por isso cê seleciona "English" no menu de idioma pra ver em PT-BR.
+
+- Áudio permanece em japonês (como no original)
+- Nenhum arquivo do jogo é removido — só os de texto são substituídos
+- Se o jogo receber update, talvez precise reaplicar o patch
+
+> **Dica:** Desativa a atualização automática na Steam pra evitar que os arquivos sejam sobrescritos.
+
+---
+
+## Arquivos
 
 ```
-├── README.md            ← You are here
-├── install.bat          ← Auto installer
-├── uninstall.bat        ← Removes the translation
+├── README.md            ← Cê tá aqui
+├── install.bat          ← Instalador automático
+├── uninstall.bat        ← Remove a tradução
 └── bundles/
-    ├── 058520d...bundle ← GameText (UI, items, system, staff roll)
-    ├── 09b47f4...bundle ← TalkText (all dialogue)
-    └── catalog.bundle   ← Patched asset catalog
+    ├── 058520d...bundle ← GameText (UI, itens, sistema, staff roll)
+    ├── 09b47f4...bundle ← TalkText (todos os diálogos)
+    └── catalog.bundle   ← Catálogo de assets patcheado
 ```
 
 ---
 
-## Contributing
+## Contribuindo
 
-Found a translation error? Weird text? Something that doesn't make sense?
+Achou erro na tradução? Texto estranho? Algo que não faz sentido?
 
-- Open an **issue** describing the problem
-- Or send a **PR** with the fix
+- Abre uma **issue** descrevendo o problema
+- Ou manda um **PR** com a correção
 
-All help is welcome!
-
----
-
-## Technical notes
-
-- Engine: Unity 2022.3.51f1 with Addressables
-- Extraction: UnityPy 1.25.0
-- CRC patch: AddressablesTools v2pr1
-- Text structure: 5-language arrays `[JP, EN, CN_S, CN_T, KR]` — index `[1]` replaced with PT-BR
+Toda ajuda é bem-vinda!
 
 ---
 
-## Credits
+## Créditos
 
-**PT-BR Translation by [Awesome Fox Music](https://steamcommunity.com/id/awesomefox/)**
+**Tradução PT-BR por [Awesome Fox Music](https://steamcommunity.com/id/awesomefox/)**
 
-*Find me on Spotify and Soundcloud as Awesome Fox Music — the bet is worth it. ( ^^v )*
+*Me acha no Spotify e Soundcloud como Awesome Fox Music — a aposta vale a pena. ( ^^v )*
 
 ---
 
-## Disclaimer
+## Aviso Legal
 
-This is an unofficial fan translation project. All rights to **All in Abyss: Judge the Fake** belong to their respective developers. This patch contains only modified text data — no proprietary game content (sprites, music, code, executables) is included or distributed. A legitimate copy of the game is required to use this translation.
+Projeto de fan translation não oficial. Todos os direitos de **All in Abyss: Judge the Fake** pertencem aos seus respectivos desenvolvedores. Este patch contém apenas dados de texto modificados — nenhum conteúdo proprietário do jogo (sprites, música, código, executáveis) está incluso. É necessário ter o jogo comprado pra usar.
