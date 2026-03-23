@@ -89,7 +89,7 @@ Se o instalador não achar teu jogo, copia na mão:
 
 ## Como funciona
 
-A tradução substitui o slot de inglês nos assets de texto do jogo. Por isso cê seleciona "English" no menu de idioma pra ver em PT-BR.
+A tradução substitui o slot de inglês nos assets de texto do jogo. Por isso você seleciona "English" no menu de idioma pra ver em PT-BR.
 
 - Áudio permanece em japonês (como no original)
 - Nenhum arquivo do jogo é removido — só os de texto são substituídos
@@ -102,7 +102,7 @@ A tradução substitui o slot de inglês nos assets de texto do jogo. Por isso c
 ## Arquivos
 
 ```
-├── README.md            ← Cê tá aqui
+├── README.md            ← Você está aqui
 ├── install.bat          ← Instalador automático
 ├── uninstall.bat        ← Remove a tradução
 └── bundles/
